@@ -1,7 +1,7 @@
 package com.application.springbootapp.controllers;
 
 import com.application.springbootapp.dtos.ClientRecordDto;
-import com.application.springbootapp.models.ClientModel;
+import com.application.springbootapp.models.client.ClientModel;
 import com.application.springbootapp.respositories.ClientRepository;
 import jakarta.validation.Valid;
 import org.springframework.beans.BeanUtils;
@@ -11,7 +11,6 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-import java.util.UUID;
 
 
 @RestController

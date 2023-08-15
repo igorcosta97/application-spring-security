@@ -1,4 +1,4 @@
-package com.application.springbootapp.models;
+package com.application.springbootapp.models.client;
 
 import jakarta.persistence.*;
 import lombok.*;
